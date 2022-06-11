@@ -1,0 +1,42 @@
+
+
+.section{
+    background-image: url(../assets/kiyim.jpg);
+    overflow: hidden;
+   
+    background-size: cover;
+    height: 70vh;
+    background: linear-gradient(to right bottom, rgb(224, 145, 145),rgb(84, 81, 81)) ,url(../assets/kiyim.jpg) ;
+}
+.content{
+    text-align: center;
+    margin-top: 25vh;
+
+}
+.content h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 0 2px white
+}
+.content button{
+    font-size: 17px;
+    font-weight: bolder;
+    background: none;
+    border-radius: 30px;
+    padding: 15px  20px;
+    cursor: pointer;
+    color: antiquewhite;
+    
+}
+.content button:hover{
+    font-size: 24px;
+    color: rgb(53, 48, 48);
+    background-color: rgb(245, 212, 212);
+    transition: 1s ease-in-out;
+    padding: 20px 30px;
+
+}
+.bottom-text{
+    
+    margin-top: 20vh;
+}

@@ -1,0 +1,78 @@
+.header{
+    position: sticky;
+    background-color: white;
+    width: 96.7%;
+    top: 0;
+    box-shadow: 2px 0 2px wheat;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  .li-items{
+
+    display: flex;
+     align-items: center;
+     margin-left: -2.9rem;
+    justify-content: space-between;
+}
+.li-items a{
+    margin: 0 1rem;
+
+    font-size: 12px;
+    box-shadow: 2px 2px 0 white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    
+}
+.logo{
+    text-transform: uppercase;
+    margin-left: -100px;
+    letter-spacing: 1px;
+    
+}
+.right{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.right .search {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+}
+.search button{
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 1rem;
+   
+}
+.buttons button{
+    background: none;
+    border: none;
+}
+.buttons a{
+    color: rgb(38, 35, 35);
+ background: none;
+ text-transform: uppercase;
+ font-size: 14px;
+ border: none;
+ text-decoration: none;    
+}
+.buttons .backet{
+    color: rgb(239, 203, 136);
+    cursor: pointer;
+}

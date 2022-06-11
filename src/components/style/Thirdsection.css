@@ -1,0 +1,45 @@
+.main{
+    border: 10px solid black;
+    height: 100vh;
+    border-radius: 20px;
+    background: linear-gradient(45deg, rgb(46, 31, 31), rgb(233, 153, 153));
+}
+
+.main-paragraph{
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  
+  
+}
+.main-paragraph h1{
+    
+    color: gray;
+    font-size: 50px;
+    font-weight: bolder;
+    
+}
+.allgifts{
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    
+}
+.image{
+    display: flex;
+    
+}
+.image img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 5rem;
+    border: 2px solid gray;
+}
+.gifts p{
+    text-align: center;
+    justify-content: space-around;
+    font-size: 30px;
+    color: white;
+}
